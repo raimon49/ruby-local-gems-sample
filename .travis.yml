@@ -1,5 +1,7 @@
 language: ruby
 rvm:
   - 2.2.3
-install: bundle install --path vendor/bundle --local
-script: bundle exec ruby *.rb
+install:
+  bundle install --path vendor/bundle --local
+script:
+  bundle exec ruby *.rb
